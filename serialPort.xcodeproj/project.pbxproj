@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		18B549FF21A2B4EB001A8631 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B549FE21A2B4EB001A8631 /* main.cpp */; };
+		18B54A0721A2B69F001A8631 /* serial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B54A0521A2B69F001A8631 /* serial.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		18B549FB21A2B4EB001A8631 /* serialPort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = serialPort; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B549FE21A2B4EB001A8631 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		18B54A0521A2B69F001A8631 /* serial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = serial.cpp; sourceTree = "<group>"; };
+		18B54A0621A2B69F001A8631 /* serial.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = serial.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				18B549FE21A2B4EB001A8631 /* main.cpp */,
+				18B54A0521A2B69F001A8631 /* serial.cpp */,
+				18B54A0621A2B69F001A8631 /* serial.hpp */,
 			);
 			path = serialPort;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18B549FF21A2B4EB001A8631 /* main.cpp in Sources */,
+				18B54A0721A2B69F001A8631 /* serial.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
